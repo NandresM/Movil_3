@@ -147,7 +147,6 @@ public class MainActivity extends AppCompatActivity {
 
             if (success) {
                 Snackbar.make(view, "Usuario eliminado correctamente", Snackbar.LENGTH_LONG).show();
-                // Limpia
                 limpiar();
                 // Actualizo matriz
                 listUsers(view);
